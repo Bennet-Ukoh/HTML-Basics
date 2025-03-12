@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Basics - My First WebPage</title>
+  </head>
+  <body>
+    <!--Project Objective:
+
+The primary goal of this mini-project is to master HTML fundamentals by creating a semantically structured, accessible, and optimized webpage. This exercise emphasizes the correct use of HTML5 elements to enhance content organization, improve user experience, and ensure compatibility across devices and assistive technologies.
+
+Use Case:
+
+The project involves developing a personal webpage titled "My Web Adventures," which serves as an introduction to web development concepts. The page includes sections such as:
+
+Header: Displays the main title of the webpage.
+Navigation: Provides links to different sections like Home and About Me.
+Main Content:
+About Me: Introduces the author with a brief description and a link to their blog.
+Chapters: Details various chapters, each focusing on different aspects of web development.
+Forms: Includes a simple form to collect user information.
+Footer: Contains copyright information.-->
+    <header>
+      <h1>My Web Adventures</h1>
+      <nav aria-label="Main Navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <article>
+          <h2>Chapter 1: The Beginning</h2>
+          <p>Welcome to My Web Adventures</p>
+          <p>Let’s start our journey into the world of web development!</p>
+          <p>Are you ready? Let’s go!</p>
+        </article>
+
+        <article>
+          <h2>Chapter 2: The Basics</h2>
+          <p>Hello, World!</p>
+          <p>This is my first webpage.</p>
+        </article>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I’m a web explorer!</p>
+        <p>
+          <a
+            href="https://adventures.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Visit my blog!</a
+          >
+        </p>
+      </section>
+
+      <section>
+        <h2>Chapter 3: Forms</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 My Web Adventures</p>
+    </footer>
+  </body>
+</html>
